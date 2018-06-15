@@ -1,20 +1,21 @@
 /*
- * Copyright 2015 Google Inc.
+ *   Copyright 2018 Google LLC
  *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
+ *   Licensed under the Apache License, Version 2.0 (the "License");
+ *   you may not use this file except in compliance with the License.
+ *   You may obtain a copy of the License at
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
+ *        http://www.apache.org/licenses/LICENSE-2.0
  *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ *   Unless required by applicable law or agreed to in writing, software
+ *   distributed under the License is distributed on an "AS IS" BASIS,
+ *   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *   See the License for the specific language governing permissions and
+ *   limitations under the License.
+ *
  */
 
-package io.plaidapp.ui;
+package io.plaidapp.ui.search;
 
 import android.app.Activity;
 import android.app.SearchManager;
@@ -53,14 +54,15 @@ import com.bumptech.glide.util.ViewPreloadSizeProvider;
 
 import java.util.List;
 
-import io.plaidapp.activities.R;
+import io.plaidapp.search.R;
 import io.plaidapp.data.PlaidItem;
 import io.plaidapp.data.SearchDataManager;
 import io.plaidapp.data.api.dribbble.model.Shot;
 import io.plaidapp.data.pocket.PocketUtils;
+import io.plaidapp.ui.FeedAdapter;
 import io.plaidapp.ui.recyclerview.InfiniteScrollListener;
 import io.plaidapp.ui.recyclerview.SlideInItemAnimator;
-import io.plaidapp.ui.transitions.CircularReveal;
+import io.plaidapp.ui.search.transitions.CircularReveal;
 import io.plaidapp.util.Activities;
 import io.plaidapp.util.ImeUtils;
 import io.plaidapp.util.ShortcutHelper;

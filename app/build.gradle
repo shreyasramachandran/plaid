@@ -23,7 +23,7 @@ android {
 
     defaultConfig {
         applicationId "io.plaidapp"
-        minSdkVersion 23
+        minSdkVersion versions.minSdk
         targetSdkVersion versions.targetSdk
         versionCode rootProject.gitCommitCount
         versionName rootProject.gitTag
@@ -58,8 +58,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-
-    dynamicFeatures = [':features:activities', ':dribbble', ':about']
+    dynamicFeatures = [':about', ':designernews', ':dribbble', ':search']
 }
 
 repositories {

@@ -18,6 +18,7 @@ buildscript {
 
     ext.versions = [
             'compileSdk'      : 28,
+            'minSdk'          : 23,
             'targetSdk'       : 28,
             'supportLibrary'  : '27.1.1',
             'constraintLayout': '1.1.1',

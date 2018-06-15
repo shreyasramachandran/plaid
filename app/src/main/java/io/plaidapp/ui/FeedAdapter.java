@@ -102,7 +102,7 @@ public class FeedAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
                          implements DataLoadingSubject.DataLoadingCallbacks,
                                     ListPreloader.PreloadModelProvider<Shot> {
 
-    static final int REQUEST_CODE_VIEW_SHOT = 5407;
+    public static final int REQUEST_CODE_VIEW_SHOT = 5407;
 
     private static final int TYPE_DESIGNER_NEWS_STORY = 0;
     private static final int TYPE_DRIBBBLE_SHOT = 1;

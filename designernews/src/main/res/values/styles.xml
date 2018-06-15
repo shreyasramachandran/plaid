@@ -18,19 +18,6 @@
 
 <resources>
 
-    <style name="Plaid.Translucent.Search">
-        <item name="android:windowAnimationStyle">@style/SearchWindowAnimations</item>
-        <item name="android:statusBarColor">@color/background_super_dark</item>
-        <item name="android:navigationBarColor">@color/background_super_dark</item>
-        <item name="android:windowEnterTransition">@transition/search_enter</item>
-        <item name="android:windowReturnTransition">@transition/search_return</item>
-        <item name="android:windowSharedElementEnterTransition">@transition/search_shared_enter</item>
-        <item name="android:windowSharedElementReturnTransition">@transition/search_shared_return</item>
-        <item name="android:windowSharedElementsUseOverlay">true</item>
-        <item name="shotLoadingPlaceholderColors">@array/loading_placeholders_dark</item>
-        <item name="initialBadgeColor">@color/gif_badge_dark_image</item>
-    </style>
-
     <style name="Plaid.Translucent.DesignerNewsLogin">
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
@@ -62,11 +49,6 @@
         <item name="android:colorButtonNormal">@color/designer_news_button</item>
         <item name="android:colorControlActivated">@color/designer_news</item>
         <item name="android:colorControlNormal">@color/hint_disabled_dark</item>
-    </style>
-
-    <style name="SearchViewTheme" parent="PlaidDarkOverlay">
-        <item name="colorControlActivated">?android:colorAccent</item>
-        <item name="android:searchViewStyle">@style/Widget.Plaid.SearchView</item>
     </style>
 
     <style name="TextAppearance.CommentAuthor.DesignerNews">

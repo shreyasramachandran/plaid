@@ -103,7 +103,7 @@ object Activities {
                         .setActionButton(drawableToBitmap(context,
                                 R.drawable.ic_upvote_filled_24dp_white)!!,
                                 context.getString(R.string.upvote_story),
-                                pendingIntent,
+                               pendingIntent,
                                 false)
                         .setShowTitle(true)
                         .enableUrlBarHiding()
@@ -160,7 +160,7 @@ object Activities {
      * SearchActivity
      */
     object Search : AddressableActivity {
-        override val className = "$PACKAGE_NAME.SearchActivity"
+        override val className = "$PACKAGE_NAME.search.SearchActivity"
 
         const val EXTRA_QUERY = "EXTRA_QUERY"
         const val EXTRA_SAVE_DRIBBBLE = "EXTRA_SAVE_DRIBBBLE"
